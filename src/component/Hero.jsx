@@ -12,8 +12,8 @@ const Hero = () => {
   return (
     <div id="hero" className="max-w-[1640px] flex flex-col lg:flex-row justify-between">
       {/* blur effectf */}
-      <div className="blur h-[22rem] w-[30rem] left-0"></div>
-      <div className="p-6 pt-3 flex-[3] flex flex-col gap-7 py-3">
+      <div className="blur h-[33rem] w-[15rem] left-0"></div>
+      <div className="p-8 flex-[3] flex flex-col gap-7 ">
         <Header />
         <div className="flex justify-center lg:justify-start items-center relative mt-6 md:mt-14 uppercase text-white bg-[#363d42] rounded-full w-fit px-4 py-3">
           <motion.div
