@@ -11,8 +11,8 @@ const Programs = () => {
         <span className="stroke-text">To Shape You</span>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4  gap-4 py-3 ">
-        {programsData.map((data) => (
-          <div className="programs-img flex flex-col bg-gray p-6 gap-3 text-white justify-between hover:bg-gradient-to-tr from-[#fa5042] to-[#ffa739] cursor-pointer ">
+        {programsData.map((data,i) => (
+          <div key={i} className="programs-img flex flex-col bg-gray p-6 gap-3 text-white justify-between hover:bg-gradient-to-tr from-[#fa5042] to-[#ffa739] cursor-pointer ">
             {data.image}
             <span className="font-bold text-base">{data.heading}</span>
             <span className="font-sm">{data.details}</span>

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import heroImg from "../assets/hero_image.png";
+import heroImg from "../assets/pexels-nappy-936075-removebg-preview.png";
 import heroback from "../assets/hero_image_back.png";
 import calories from "../assets/calories.png";
 import heart from "../assets/heart.png";

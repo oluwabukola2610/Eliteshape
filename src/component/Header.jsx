@@ -30,16 +30,16 @@ const Header = () => {
         }
       >
         <li>
-          <Link smooth={true} span={true} onClick={()=>setToggle(false)} to="hero">Home</Link>
+          <Link smooth={true} span='true' onClick={()=>setToggle(false)} to="hero">Home</Link>
         </li>
         <li>
-          <Link smooth={true} span={true} onClick={()=>setToggle(false)} to="programs">Programs</Link>
+          <Link smooth={true} span='true' onClick={()=>setToggle(false)} to="programs">Programs</Link>
         </li>
         <li>
-          <Link smooth={true} span={true} onClick={()=>setToggle(false)} to="reason">Why us</Link>
+          <Link smooth={true} span='true' onClick={()=>setToggle(false)} to="reason">Why us</Link>
         </li>
         <li>
-          <Link smooth={true} span={true} onClick={()=>setToggle(false)} to="textimonia">Testimonia</Link>
+          <Link smooth={true} span='true' onClick={()=>setToggle(false)} to="textimonia">Testimonia</Link>
         </li>
       </ul>
     </div>
