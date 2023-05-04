@@ -81,7 +81,10 @@ const Hero = () => {
           <span className="text-gray">Heart Rate</span>{" "}
           <span className="text-white text-xl">118 bpm</span>
         </motion.div>
-        <img
+        <motion.img
+        initial={{right:'5rem'}}
+        transition={transition}
+        whileInView={{right:'13rem'}}
           src={heroImg}
           alt=""
           className=" top-[10rem] right-[8rem]  self-center lg:absolute lg:top-[10rem] lg:right-[12rem]"
